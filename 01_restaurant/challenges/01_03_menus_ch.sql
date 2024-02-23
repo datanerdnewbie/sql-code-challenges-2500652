@@ -4,3 +4,17 @@
 -- Kreieren Sie eine Liste von Vorspeisen und Getraenken.
 -- Kreieren Sie eine Liste des ganzen Angebots ausgenommen der Getränke.
 -- Die letzten beiden Menues sollen nach Gericht-Art sortiert sein.
+
+SELECT Typ, Name, Beschreibung, Preis
+FROM Speise
+ORDER BY Preis;
+
+SELECT Typ, Name, Beschreibung, Preis
+FROM Speise
+WHERE Typ = 'Vorspeise' OR Typ = 'Getränk'
+ORDER BY Typ;
+
+SELECT Typ, Name, Beschreibung, Preis
+FROM Speise
+WHERE Typ != 'Getränk'
+ORDER BY Typ;

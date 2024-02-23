@@ -5,7 +5,7 @@
 -- restaurant.db SQLite database.
 
 SELECT *
-FROM Dishes;
+FROM Speise;
 
 SELECT *
-FROM Customers;
+FROM Kunden;
