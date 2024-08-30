@@ -10,3 +10,5 @@ CREATE TABLE Jubilaeum
   (KundenID INTEGER ,
   PartyGroesse INTEGER
 );
+
+Drop TABLE Jubilaeum;
